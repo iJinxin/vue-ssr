@@ -44,20 +44,7 @@ module.exports = {
           name: '[name].[ext]?hash'
         }
       },
-      // {
-      //   test: /\.scss$/,
-      //   use: isProd ? ExtractTextPlugin.extract({
-      //     use: [{
-      //         loader: 'css-loader',
-      //         options: {
-      //           minimize: true
-      //         }
-      //       },
-      //       'sass-loader'
-      //     ],
-      //     fallback: 'vue-style-loader'
-      //   }) : ['vue-style-loader', 'css-loader', 'sass-loader']
-      // }
+      
     ]
   },
   performance: {
